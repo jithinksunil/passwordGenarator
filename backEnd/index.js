@@ -9,7 +9,7 @@ const app=express()
 dotenv.config()
 mongodb()
 app.use(cors({
-    origin: '*',
+    origin: process.env.CORS_LINKS?.split(','),
     methods: [
         "GET",
         "POST",
