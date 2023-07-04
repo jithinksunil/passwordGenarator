@@ -1,4 +1,4 @@
-passwordGenarator/node_modules
-passwordGenarator/.env
-passwordGenaratorBackEnd/node_modules
-passwordGenaratorBackEnd/.env
+backEnd/node_modules
+backEnd/.env
+frontEnd/node_modules
+frontEnd/.env
